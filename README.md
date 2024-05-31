@@ -1,6 +1,6 @@
 # Design of Algorithm and Analysis (DAA) Practical Lab Programs
 
-Welcome to the repository for the programs of Design of Algorithm and Analysis Lab. This repository contains implementations of various algorithms and problem-solving techniques covered in the lab sessions.
+Welcome to the repository for the programs of Design of Algorithm and Analysis Lab. This repository contains implementations(code and output) of various algorithms and problem-solving techniques covered in the lab sessions.
 
 ## Table of Contents
 
