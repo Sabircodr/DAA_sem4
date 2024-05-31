@@ -1,12 +1,29 @@
 ## Program 8: Perform Matrix Multiplication Using Strassen's Formula
 
 ### Description
-This program demonstrates matrix multiplication using Strassen's formula. It prompts the user to enter the elements of two 2x2 matrices, computes the product matrix using Strassen's algorithm, and then displays the result. Strassen's formula optimizes matrix multiplication by reducing the number of multiplications from 8 to 7. The algorithm calculates 7 intermediary matrices (m1 to m7) based on the input matrices and then computes the resulting matrix `c` using these intermediaries.
+
+This program demonstrates matrix multiplication using Strassen's formula. It prompts the user to enter the elements of two 2x2 matrices, computes the product matrix using Strassen's algorithm, and then displays the result.
+
+#### Strassen's Matrix Multiplication Algorithm
+Strassen's formula optimizes matrix multiplication by reducing the number of multiplications from 8 to 7. The algorithm involves the following steps:
+
+1. Calculate $\(m_1 = (a_{00} + a_{11}) \times (b_{00} + b_{11})\)$
+2. Calculate $\(m_2 = (a_{10} + a_{11}) \times b_{00}\)$
+3. Calculate $\(m_3 = a_{00} \times (b_{01} - b_{11})\)$
+4. Calculate $\(m_4 = a_{11} \times (b_{10} - b_{00})\)$
+5. Calculate $\(m_5 = (a_{00} + a_{01}) \times b_{11}\)$
+6. Calculate $\(m_6 = (a_{10} - a_{00}) \times (b_{00} + b_{01})\)$
+7. Calculate $\(m_7 = (a_{01} - a_{11}) \times (b_{10} + b_{11})\)$
+
+Finally, compute the elements of the resulting matrix \(c\) as follows:
+- $\(c_{00} = m_1 + m_4 - m_5 + m_7\)$
+- $\(c_{01} = m_3 + m_5\)$
+- $\(c_{10} = m_2 + m_4\)$
+- $\(c_{11} = m_1 - m_2 + m_3 + m_6\)$
 
 ### Code
 ```c
-// Write a program in C to perform matrix multiplication using Strassen's
-// formula
+// Write a program in C to perform matrix multiplication using Strassen's formula
 #include <stdio.h>
 
 int main() {
