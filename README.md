@@ -15,7 +15,8 @@ Welcome to the repository for the programs of Design of Algorithm and Analysis L
 9. [Implement Tower of Hanoi Using Recursion](./Programs/towerOfHanoi.md)
 10. [Implement Job Sequencing with Deadline](./Programs/JobSequencing.md)
 11. [Implement Matrix Chain Multiplication](./Programs/MatrixChain.md)
-12. [Solve the N Queens Problem](./Programs/NQueen.md)
+12. [Floyd Warshall Algorithm for Shortest Path](./Programs/FloydWarshall.md)
+13. [Solve the N Queens Problem](./Programs/NQueen.md)
 
 ## License
 
