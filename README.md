@@ -18,7 +18,8 @@ Welcome to the repository for the programs of Design of Algorithm and Analysis L
 12. [Implement Matrix Chain Multiplication](./Programs/MatrixChain.md)
 13. [Floyd Warshall Algorithm for Shortest Path](./Programs/FloydWarshall.md)
 14. [Solve the N Queens Problem](./Programs/NQueen.md)
-15. MST for Graphs
+15. [M-Colouring Problem using Backtracking Algorithm](./Programs/MColor.md)
+16. MST for Graphs
     - [Kruskal Algorithm](./Programs/Kruskal.md)
     - [Dijkstra's Algorithm](./Programs/Dijkstra.md)
     - [Prim's Algorithm](./Programs/Prim.md)
