@@ -18,6 +18,14 @@ Welcome to the repository for the programs of Design of Algorithm and Analysis L
 12. [Implement Matrix Chain Multiplication](./Programs/MatrixChain.md)
 13. [Floyd Warshall Algorithm for Shortest Path](./Programs/FloydWarshall.md)
 14. [Solve the N Queens Problem](./Programs/NQueen.md)
+15. MST for Graphs
+    - [Kruskal Algorithm](./Programs/Kruskal.md)
+    - [Dijkstra's Algorithm](./Programs/Dijkstra.md)
+    - [Prim's Algorithm](./Programs/Prim.md)
+
+> [!WARNING]
+> - The code for Dijkstra's and Prim's Algorithm is not cross verified by me.  
+> - Use it at your own risk.
 
 ## License
 
