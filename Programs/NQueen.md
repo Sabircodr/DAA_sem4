@@ -7,6 +7,11 @@ The program uses a backtracking algorithm to find all possible solutions for pla
 
 Once a solution is found, it prints the arrangement of queens on the chessboard. The program continues searching for all possible solutions until all arrangements are explored. 
 
+#### Solution for 4 Queens
+![image](https://github.com/Sabircodr/DAA_sem4/assets/121866176/a56cc2c3-a6bc-4353-b246-c0559f989d1c)
+
+
+
 ### Code
 ```c
 #include <math.h>
